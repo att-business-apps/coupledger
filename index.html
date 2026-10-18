@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Coupledger: Money, together. A shared money ledger for couples</title>
+    <meta name="description"
+        content="Coupledger is a calm shared ledger for two. Plan with savings first, sort spending the Kakeibo way, and track budgets, bills and goals together. Explore it free in your browser. Android app coming soon.">
+    <meta name="theme-color" content="#050A14">
+    <link rel="canonical" href="https://YOUR-ADDRESS/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Coupledger: Money, together.">
+    <meta property="og:description" content="A calm shared ledger for couples. Explore it in your browser.">
+    <meta property="og:image" content="https://YOUR-ADDRESS/assets/og.png">
+    <meta property="og:url" content="https://YOUR-ADDRESS/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coupledger: Money, together.">
+    <meta name="twitter:description" content="A calm shared ledger for couples. Explore it in your browser.">
+    <meta name="twitter:image" content="https://YOUR-ADDRESS/assets/og.png">
+    <link rel="icon" type="image/png" href="app/icon-192.png">
+    <link rel="apple-touch-icon" href="app/icon-192.png">
+    <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <script
+        type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Coupledger","applicationCategory":"FinanceApplication","operatingSystem":"Any modern web browser","description":"A shared money ledger for couples: plan with savings first, sort spending into Needs, Wants, Culture and Extra, and track budgets, bills and goals together.","url":"https://YOUR-ADDRESS/","creator":{"@type":"Organization","name":"Amortree Tech","email":"hi@amortree.com"}}</script>
+    <script>document.documentElement.classList.add("js")</script>
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+
+<body class="font-sans antialiased overflow-x-hidden">
+    <a class="skip" href="#features">Skip to content</a>
+    <div id="prog"
+        class="fixed left-0 top-0 z-[60] h-[3px] w-full origin-left scale-x-0 bg-gradient-to-r from-navy via-peach to-coral">
+    </div>
+    <header id="nav" class="fixed inset-x-0 top-0 z-50 transition-all">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+            <a href="#top" class="flex items-center gap-2.5"><img src="app/icon-192.png" alt="" width="36" height="36"
+                    class="h-9 w-9 rounded-xl bg-white/90 p-0.5"><span
+                    class="font-display text-xl">Coupledger</span></a>
+            <nav class="hidden items-center gap-8 text-sm text-mist md:flex" aria-label="Main"><a
+                    class="hover:text-white" href="#see">See it</a><a class="hover:text-white"
+                    href="#features">Features</a><a class="hover:text-white" href="#how">How it works</a><a
+                    class="hover:text-white" href="#faq">FAQ</a></nav>
+            <a data-web class="btn btn-p !px-5 !py-2.5 text-sm" href="app/">Open web app</a>
+        </div>
+    </header>
+    <main id="top">
+        <section class="relative pb-24 pt-32 md:pt-40">
+            <div class="glow -left-40 top-10 h-[420px] w-[420px] bg-navy/70"></div>
+            <div class="glow right-0 top-40 h-[380px] w-[380px] bg-coral/25"></div>
+            <div class="relative mx-auto grid max-w-6xl items-center gap-14 px-5 lg:grid-cols-2">
+                <div>
+                    <p class="hero-in glass inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs text-mist">
+                        <span class="h-1.5 w-1.5 rounded-full bg-coral"></span> For two people, one shared wallet</p>
+                    <h1 class="hero-in mt-6 font-display text-5xl leading-[1.04] sm:text-6xl lg:text-7xl">Money, <span
+                            class="grad">together.</span><br>Finally on the<br>same page.</h1>
+                    <p class="hero-in mt-6 max-w-lg text-lg text-mist">Coupledger is the calm shared ledger for couples.
+                        See every rupee you both spend, plan the month, and stop asking <em
+                            class="not-italic text-white">“where did it all go?”</em></p>
+                    <div class="hero-in mt-9 flex flex-wrap gap-3"><a data-web class="btn btn-p" href="app/"><svg
+                                class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                                aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" />
+                                <path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" />
+                            </svg>Explore it in your browser</a><span class="soon"
+                            aria-label="Android app, coming soon"><svg class="h-5 w-5" fill="currentColor"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M7 18a1 1 0 0 0 1 1h1v3a1.3 1.3 0 0 0 2.6 0v-3h.8v3a1.3 1.3 0 0 0 2.6 0v-3h1a1 1 0 0 0 1-1V8H7zM3.5 8.5a1.3 1.3 0 0 0-1.3 1.3v5.4a1.3 1.3 0 0 0 2.6 0V9.8a1.3 1.3 0 0 0-1.3-1.3zm17 0a1.3 1.3 0 0 0-1.3 1.3v5.4a1.3 1.3 0 0 0 2.6 0V9.8a1.3 1.3 0 0 0-1.3-1.3zM15.5 2.8l1.2-1.6-.5-.4-1.3 1.7a6 6 0 0 0-5.8 0L7.8.8l-.5.4 1.2 1.6A5.8 5.8 0 0 0 6.9 7h10.2a5.8 5.8 0 0 0-1.6-4.2z" />
+                            </svg>Android app <em>Coming soon</em></span></div>
+                    <p class="hero-in mt-5 text-sm text-mist">No install. Sign up in a minute, invite your partner, and
+                        look around.</p>
+                </div>
+                <div id="phoneWrap" class="relative mx-auto w-full max-w-[330px]">
+                    <div
+                        class="float-a glass absolute -left-28 top-20 z-20 hidden rounded-2xl px-4 py-3 text-sm shadow-2xl sm:block">
+                        <span class="text-xs text-mist">Meera added</span>
+                        <div class="font-semibold">Groceries · ₹1,840</div>
+                    </div>
+                    <div
+                        class="float-b glass absolute -right-20 bottom-32 z-20 hidden rounded-2xl px-4 py-3 text-sm shadow-2xl sm:block">
+                        <span class="text-xs text-mist">Due this month</span>
+                        <div class="font-semibold">💡 Maintenance · ₹2,400</div>
+                    </div>
+                    <div id="phone"
+                        class="relative rounded-[2.6rem] border border-white/15 bg-[#0a1220] p-2.5 shadow-[0_40px_90px_-30px_rgba(13,58,113,.9)]">
+                        <div class="relative overflow-hidden rounded-[2.1rem]" style="aspect-ratio:390/844"><img
+                                src="assets/shots/home.webp" width="780" height="1688"
+                                alt="Coupledger home screen: combined balance, each partner’s balance, and this month’s spending"
+                                class="absolute inset-0 h-full w-full object-cover" fetchpriority="high"></div>
+                    </div>
+                    <p class="mt-3 text-center text-xs text-mist/80">Real app screen, shown with sample data</p>
+                </div>
+            </div>
+        </section>
+        <section class="overflow-hidden border-y border-white/10 py-5 text-mist" aria-label="Highlights">
+            <div class="mq" id="mq" aria-hidden="true"><span>Real-time sync</span><span
+                    aria-hidden="true">·</span><span>Shared budgets</span><span aria-hidden="true">·</span><span>Cash in
+                    hand</span><span aria-hidden="true">·</span><span>Recurring bills</span><span
+                    aria-hidden="true">·</span><span>Kakeibo plan</span><span aria-hidden="true">·</span><span>Savings goals</span><span aria-hidden="true">·</span><span>Undo in
+                    5 seconds</span><span aria-hidden="true">·</span><span>Works in your browser</span><span
+                    aria-hidden="true">·</span><span>Android app coming soon</span><span
+                    aria-hidden="true">·</span><span>Real-time sync</span><span aria-hidden="true">·</span><span>Shared
+                    budgets</span><span aria-hidden="true">·</span><span>Cash in hand</span><span
+                    aria-hidden="true">·</span><span>Recurring bills</span><span
+                    aria-hidden="true">·</span><span>Kakeibo plan</span><span aria-hidden="true">·</span><span>Savings goals</span><span aria-hidden="true">·</span><span>Undo in
+                    5 seconds</span><span aria-hidden="true">·</span><span>Works in your browser</span><span
+                    aria-hidden="true">·</span><span>Android app coming soon</span><span aria-hidden="true">·</span>
+            </div>
+        </section>
+        <section class="mx-auto max-w-5xl px-5 py-28 text-center">
+            <h2 id="story" class="font-display text-3xl leading-snug sm:text-5xl"><span class="w ">Two</span> <span
+                    class="w ">people.</span> <span class="w ">One</span> <span class="w ">month.</span> <br
+                    class="hidden sm:block"> <span class="w text-mist">Two</span> <span
+                    class="w text-mist">different</span> <span class="w text-mist">ideas</span> <span
+                    class="w text-mist">of</span> <span class="w text-mist">what</span> <span
+                    class="w text-mist">was</span> <span class="w text-mist">spent.</span> <br class="hidden sm:block">
+                <span class="w grad">What</span> <span class="w grad">if</span> <span class="w grad">you</span> <span
+                    class="w grad">both</span> <span class="w grad">saw</span> <span class="w grad">the</span> <span
+                    class="w grad">same</span> <span class="w grad">truth?</span></h2>
+        </section>
+        <section id="see" class="relative mx-auto max-w-6xl px-5 pb-28">
+            <div class="mb-12 text-center">
+                <p class="reveal text-sm uppercase tracking-widest text-coral">See it in action</p>
+                <h2 class="reveal mt-3 font-display text-4xl sm:text-5xl">This is the real app.<br><span
+                        class="text-mist">Take a look around.</span></h2>
+            </div>
+            <div class="grid items-center gap-12 lg:grid-cols-2">
+                <div class="reveal order-2 lg:order-1">
+                    <div role="tablist" aria-label="App screens" class="flex flex-wrap gap-2"><button role="tab"
+                            class="tab" id="t-home" aria-controls="p-home" aria-selected="true"
+                            data-shot="home">Home</button><button role="tab" class="tab" id="t-budget"
+                            aria-controls="p-budget" aria-selected="false" data-shot="budget">Budget</button><button role="tab" class="tab" id="t-plan" aria-controls="p-plan" aria-selected="false" data-shot="plan">Plan</button><button
+                            role="tab" class="tab" id="t-goals" aria-controls="p-goals" aria-selected="false"
+                            data-shot="goals">Goals</button><button role="tab" class="tab" id="t-insights"
+                            aria-controls="p-insights" aria-selected="false"
+                            data-shot="insights">Insights</button><button role="tab" class="tab" id="t-boxes" aria-controls="p-boxes" aria-selected="false" data-shot="boxes">Four boxes</button><button role="tab" class="tab" id="t-reflect" aria-controls="p-reflect" aria-selected="false" data-shot="reflect">Reflect</button><button role="tab" class="tab" id="t-activity"
+                            aria-controls="p-activity" aria-selected="false" data-shot="activity">Activity</button>
+                    </div>
+                    <div id="caps" class="mt-8 min-h-[9rem]" aria-live="polite">
+                        <div class="cap" data-cap="home">
+                            <h3 class="font-display text-3xl sm:text-4xl">Everything at a glance</h3>
+                            <p class="mt-3 text-mist text-lg">Your combined balance, what each of you has, and this
+                                month’s spending. All on the first screen.</p>
+                        </div>
+                        <div class="cap" data-cap="budget" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">Budgets that warn you early</h3>
+                            <p class="mt-3 text-mist text-lg">A progress ring for the month and a bar for every
+                                category. They turn amber, then red, before the month runs away.</p>
+                        </div>
+                        <div class="cap" data-cap="plan" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">Plan the month, savings first</h3>
+                            <p class="mt-3 text-mist text-lg">Income minus fixed costs minus savings is what you may spend. Set your savings aside before anything else, and watch what is left.</p>
+                        </div>
+                        <div class="cap" data-cap="goals" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">Save toward something together</h3>
+                            <p class="mt-3 text-mist text-lg">Trips, a laptop, an emergency fund. Add money together and
+                                watch each ring fill up.</p>
+                        </div>
+                        <div class="cap" data-cap="insights" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">See where it really went</h3>
+                            <p class="mt-3 text-mist text-lg">Your savings rate, where the money went and who spent
+                                what, in plain charts instead of spreadsheets.</p>
+                        </div>
+                        <div class="cap" data-cap="boxes" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">Needs, Wants, Culture, Extra</h3>
+                            <p class="mt-3 text-mist text-lg">The classic Kakeibo split. Tag each category once and see where every rupee really goes, month by month.</p>
+                        </div>
+                        <div class="cap" data-cap="reflect" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">Look back, together</h3>
+                            <p class="mt-3 text-mist text-lg">Four simple questions at month end, answered with your real numbers. Each of you writes one thing to do better.</p>
+                        </div>
+                        <div class="cap" data-cap="activity" hidden>
+                            <h3 class="font-display text-3xl sm:text-4xl">Every entry, one tap away</h3>
+                            <p class="mt-3 text-mist text-lg">Search and filter everything you both logged. Fix a
+                                mistake, or undo it within five seconds.</p>
+                        </div>
+                    </div>
+                    <a data-web class="btn btn-p mt-6" href="app/">Try it yourself</a>
+                    <p class="mt-3 text-xs text-mist/80">Screens show sample data, not real households.</p>
+                </div>
+                <div class="reveal order-1 mx-auto w-full max-w-[300px] lg:order-2">
+                    <div
+                        class="rounded-[2.4rem] border border-white/15 bg-[#0a1220] p-2.5 shadow-[0_40px_90px_-30px_rgba(13,58,113,.9)]">
+                        <div id="stage" class="relative overflow-hidden rounded-[1.9rem]" style="aspect-ratio:390/844">
+                            <img class="shot on" id="p-home" src="assets/shots/home.webp" width="780" height="1688"
+                                alt="Coupledger Home screen" decoding="async"><img class="shot" id="p-budget"
+                                src="assets/shots/budget.webp" width="780" height="1688" alt="Coupledger Budget screen"
+                                loading=lazy decoding="async"><img class="shot" id="p-goals"
+                                src="assets/shots/goals.webp" width="780" height="1688" alt="Coupledger Goals screen"
+                                loading=lazy decoding="async"><img class="shot" id="p-insights"
+                                src="assets/shots/insights.webp" width="780" height="1688"
+                                alt="Coupledger Insights screen" loading=lazy decoding="async"><img class="shot"
+                                id="p-activity" src="assets/shots/activity.webp" width="780" height="1688"
+                                alt="Coupledger Activity screen" loading=lazy decoding="async"><img class="shot" id="p-plan" src="assets/shots/plan.webp" width="780" height="1688" alt="Coupledger monthly plan screen" loading=lazy decoding="async"><img class="shot" id="p-boxes" src="assets/shots/boxes.webp" width="780" height="1688" alt="Coupledger four boxes screen" loading=lazy decoding="async"><img class="shot" id="p-reflect" src="assets/shots/reflect.webp" width="780" height="1688" alt="Coupledger monthly reflection screen" loading=lazy decoding="async"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features" class="relative mx-auto max-w-6xl px-5 pb-28">
+            <div class="mb-14 text-center">
+                <p class="reveal text-sm uppercase tracking-widest text-coral">What’s inside</p>
+                <h2 class="reveal mt-3 font-display text-4xl sm:text-5xl">Everything a couple needs.<br><span
+                        class="text-mist">Nothing they don’t.</span></h2>
+            </div>
+            <div class="grid gap-5 md:grid-cols-6">
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-4">
+                    <div class="text-3xl" aria-hidden="true">🤝</div>
+                    <h3 class="mt-4 font-display text-2xl">One household, two people</h3>
+                    <p class="mt-2 max-w-md text-mist">Create a household, send your partner an invite code, and you
+                        both see the same entries, balances and budgets. When one of you adds something, the other sees
+                        it live.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">💵</div>
+                    <h3 class="mt-4 font-display text-2xl">Cash in hand</h3>
+                    <p class="mt-2 max-w-md text-mist">Cash, bank and UPI kept as separate accounts for each of you.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">📊</div>
+                    <h3 class="mt-4 font-display text-2xl">Budgets that talk back</h3>
+                    <p class="mt-2 max-w-md text-mist">Set a limit per category. Bars turn amber, then red, before the
+                        month gets away.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">🔁</div>
+                    <h3 class="mt-4 font-display text-2xl">Bills on autopilot</h3>
+                    <p class="mt-2 max-w-md text-mist">Rent, EMI, school fee: they appear when due. One tap to add or
+                        skip.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">🎯</div>
+                    <h3 class="mt-4 font-display text-2xl">Goals with a ring</h3>
+                    <p class="mt-2 max-w-md text-mist">Save for a trip or a target together and watch the ring fill up.
+                    </p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">🎋</div>
+                    <h3 class="mt-4 font-display text-2xl">Savings first</h3>
+                    <p class="mt-2 max-w-md text-mist">Plan the month: income minus fixed costs minus savings is what you may spend. Set savings aside before anything else.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">🗂️</div>
+                    <h3 class="mt-4 font-display text-2xl">The four boxes</h3>
+                    <p class="mt-2 max-w-md text-mist">Needs, Wants, Culture and Extra. Every category sits in one, so you see what your money is really for.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-2">
+                    <div class="text-3xl" aria-hidden="true">📝</div>
+                    <h3 class="mt-4 font-display text-2xl">Monthly reflection</h3>
+                    <p class="mt-2 max-w-md text-mist">Four questions at month end, answered with your real numbers. Each of you notes one thing to improve.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-3">
+                    <div class="text-3xl" aria-hidden="true">🔍</div>
+                    <h3 class="mt-4 font-display text-2xl">Insights, not spreadsheets</h3>
+                    <p class="mt-2 max-w-md text-mist">See where it went, who spent, how it was paid, the biggest
+                        expenses and daily spending, all in plain charts.</p>
+                </div>
+                <div class="card glass reveal rounded-3xl p-7 md:col-span-3">
+                    <div class="text-3xl" aria-hidden="true">↩️</div>
+                    <h3 class="mt-4 font-display text-2xl">Made a mistake? Undo it.</h3>
+                    <p class="mt-2 max-w-md text-mist">Deleted or edited by accident? A five-second Undo brings it back.
+                        Hide amounts with one tap when you are out in public.</p>
+                </div>
+            </div>
+        </section>
+        <section id="how"
+            class="relative border-y border-white/10 bg-white/[.02] py-28 md:flex md:min-h-screen md:items-center md:py-0">
+            <div class="mx-auto w-full max-w-6xl px-5">
+                <div class="mb-10 text-center">
+                    <p class="reveal text-sm uppercase tracking-widest text-coral">How it works</p>
+                    <h2 class="reveal mt-3 font-display text-4xl sm:text-5xl">Set up in under two minutes.</h2>
+                </div>
+                <div class="mb-8 hidden h-px bg-white/10 md:block">
+                    <div id="hline" class="h-px origin-left scale-x-0 bg-gradient-to-r from-peach to-coral"></div>
+                </div>
+                <div class="grid gap-6 md:grid-cols-3">
+                    <div class="step glass rounded-3xl p-7">
+                        <div class="grad font-display text-6xl">1</div>
+                        <h3 class="mt-3 text-xl font-semibold">Create your household</h3>
+                        <p class="mt-2 text-mist">Sign up, name your household, and your Cash and Bank accounts are
+                            ready.</p>
+                    </div>
+                    <div class="step glass rounded-3xl p-7">
+                        <div class="grad font-display text-6xl">2</div>
+                        <h3 class="mt-3 text-xl font-semibold">Invite your partner</h3>
+                        <p class="mt-2 text-mist">Share a one-time code or link. They join on their own phone or
+                            browser.</p>
+                    </div>
+                    <div class="step glass rounded-3xl p-7">
+                        <div class="grad font-display text-6xl">3</div>
+                        <h3 class="mt-3 text-xl font-semibold">Add, watch, plan</h3>
+                        <p class="mt-2 text-mist">Log spending in seconds. Balances, budgets and insights update for
+                            both of you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benefits" class="mx-auto max-w-6xl px-5 py-28">
+            <div class="grid items-center gap-14 lg:grid-cols-2">
+                <div>
+                    <p class="reveal text-sm uppercase tracking-widest text-coral">Why couples will like it</p>
+                    <h2 class="reveal mt-3 font-display text-4xl sm:text-5xl">Less guessing.<br>More <span
+                            class="grad">talking</span> about the good stuff.</h2>
+                    <ul class="mt-8 space-y-5">
+                        <li class="reveal flex gap-4"><span
+                                class="mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-coral/20 text-coral text-sm"
+                                aria-hidden="true">✓</span>
+                            <div><b>Fewer money arguments.</b> <span class="text-mist">You are both looking at the same
+                                    numbers, not each other’s memory.</span></div>
+                        </li>
+                        <li class="reveal flex gap-4"><span
+                                class="mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-coral/20 text-coral text-sm"
+                                aria-hidden="true">✓</span>
+                            <div><b>Know where you stand, always.</b> <span class="text-mist">Balance, cash in hand and
+                                    budget left, on the first screen.</span></div>
+                        </li>
+                        <li class="reveal flex gap-4"><span
+                                class="mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-coral/20 text-coral text-sm"
+                                aria-hidden="true">✓</span>
+                            <div><b>Spend with a plan.</b> <span class="text-mist">Savings come first, then Needs, Wants, Culture and Extra, the Kakeibo way.</span></div>
+                        </li>
+                        <li class="reveal flex gap-4"><span
+                                class="mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-coral/20 text-coral text-sm"
+                                aria-hidden="true">✓</span>
+                            <div><b>Never miss a bill.</b> <span class="text-mist">Recurring entries remind you when
+                                    rent or EMI is due.</span></div>
+                        </li>
+                        <li class="reveal flex gap-4"><span
+                                class="mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-coral/20 text-coral text-sm"
+                                aria-hidden="true">✓</span>
+                            <div><b>Plan together.</b> <span class="text-mist">Shared goals and budgets turn “we should
+                                    save” into “we are saving”.</span></div>
+                        </li>
+                        <li class="reveal flex gap-4"><span
+                                class="mt-1 grid h-7 w-7 shrink-0 place-items-center rounded-full bg-coral/20 text-coral text-sm"
+                                aria-hidden="true">✓</span>
+                            <div><b>Private to your household.</b> <span class="text-mist">Your data sits behind
+                                    database access rules, separate from every other household.</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="reveal glass rounded-3xl p-7 text-center">
+                        <div class="grad font-display text-5xl"><span data-count="2">0</span></div>
+                        <p class="mt-2 text-sm text-mist">people, one shared view</p>
+                    </div>
+                    <div class="reveal glass rounded-3xl p-7 text-center">
+                        <div class="grad font-display text-5xl"><span data-count="5">0</span>s</div>
+                        <p class="mt-2 text-sm text-mist">to undo a slip</p>
+                    </div>
+                    <div class="reveal glass rounded-3xl p-7 text-center">
+                        <div class="grad font-display text-5xl"><span data-count="5">0</span></div>
+                        <p class="mt-2 text-sm text-mist">screens that matter</p>
+                    </div>
+                    <div class="reveal glass rounded-3xl p-7 text-center">
+                        <div class="grad font-display text-5xl"><span data-count="1">0</span></div>
+                        <p class="mt-2 text-sm text-mist">tap to hide your amounts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="get" class="relative mx-auto max-w-6xl px-5 pb-28">
+            <div class="glow left-1/2 top-0 h-72 w-72 -translate-x-1/2 bg-navy/60"></div>
+            <div class="relative mb-12 text-center">
+                <p class="reveal text-sm uppercase tracking-widest text-coral">Use it your way</p>
+                <h2 class="reveal mt-3 font-display text-4xl sm:text-5xl">Start in your browser.<br><span
+                        class="text-mist">Android is on its way.</span></h2>
+            </div>
+            <div class="relative grid gap-6 md:grid-cols-2">
+                <div class="card glass reveal rounded-3xl p-8">
+                    <div class="text-4xl" aria-hidden="true">🌐</div>
+                    <h3 class="mt-4 font-display text-3xl">Web app <span
+                            class="ml-2 rounded-full bg-emerald-400/15 px-2.5 py-1 align-middle font-sans text-xs text-emerald-300">Available
+                            now</span></h3>
+                    <p class="mt-3 text-mist">Nothing to install. Open it in Chrome, Edge, Safari or Firefox, sign up
+                        and go. On your phone, use “Add to Home Screen” to make it feel like an app.</p><a data-web
+                        class="btn btn-p mt-7" href="app/">Open Coupledger</a>
+                </div>
+                <div class="card glass reveal rounded-3xl p-8">
+                    <div class="text-4xl" aria-hidden="true">🤖</div>
+                    <h3 class="mt-4 font-display text-3xl">Android app <span
+                            class="ml-2 rounded-full bg-peach/15 px-2.5 py-1 align-middle font-sans text-xs text-peach">Coming
+                            soon</span></h3>
+                    <p class="mt-3 text-mist">A dedicated Android app is being prepared. Until then, the web app works
+                        on your Android phone too, and you can add it to your home screen.</p><span
+                        class="soon mt-7">Android download <em>Soon</em></span>
+                </div>
+            </div>
+        </section>
+        <section class="mx-auto max-w-3xl px-5 pb-28 text-center">
+            <div class="glass reveal rounded-3xl p-10">
+                <p class="text-sm uppercase tracking-widest text-coral">Why we built it</p>
+                <p class="mt-4 font-display text-2xl leading-snug sm:text-3xl">Coupledger began as the ledger we made
+                    for our own household, because splitting “who paid for what” should never feel like an argument.</p>
+                <p class="mt-4 text-mist">We kept it calm, quick to use, and built for two.</p>
+            </div>
+        </section>
+        <section id="faq" class="mx-auto max-w-3xl px-5 pb-28">
+            <div class="mb-10 text-center">
+                <p class="reveal text-sm uppercase tracking-widest text-coral">Questions</p>
+                <h2 class="reveal mt-3 font-display text-4xl sm:text-5xl">Good to know.</h2>
+            </div>
+            <div class="space-y-3">
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>Do we both need
+                            an account?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">Yes. Each of you signs up with your own email, and your
+                        partner joins your household with a one-time invite code or link. After that you both see the
+                        same entries, balances and budgets.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>How much does
+                            it cost?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">You can sign up and explore in your browser right now. If
+                        paid plans are introduced, they will be announced on this page first.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>Does it connect
+                            to my bank?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">No. You add entries yourselves. Coupledger never asks for
+                        bank logins and never holds or moves real money. It is a tracker for your household.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>Is our data
+                            private?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">Each household’s data is kept separate from every other
+                        household by database access rules, so only the two of you can see it. Sign-in uses your email
+                        and password, with a reset link if you forget.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>What is Kakeibo?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">Kakeibo is a Japanese household ledger habit. You plan the month with savings first, sort spending into Needs, Wants, Culture and Extra, and look back at month end. Coupledger is built around those three habits, and you log entries yourselves, which is part of the point.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>Which devices
+                            does it work on?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">Any modern browser on a phone, tablet or computer: Chrome,
+                        Edge, Safari and Firefox. On a phone, use “Add to Home Screen” and it opens like an app. An
+                        Android app is coming soon.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>What if I add
+                            something by mistake?</span><span class="plus text-2xl text-coral transition-transform"
+                            aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">Edit it, or delete it and tap Undo within five seconds to
+                        bring it back.</p>
+                </details>
+                <details class="reveal glass rounded-2xl px-6 py-5">
+                    <summary class="flex items-center justify-between gap-4 text-lg font-semibold"><span>Can more than
+                            two people share a household?</span><span
+                            class="plus text-2xl text-coral transition-transform" aria-hidden="true">+</span></summary>
+                    <p class="mt-3 leading-relaxed text-mist">Coupledger is built for couples, so a household is for two
+                        people for now.</p>
+                </details>
+            </div>
+        </section>
+        <section class="relative overflow-hidden py-28 text-center">
+            <div class="glow left-1/2 top-1/2 h-[420px] w-[620px] -translate-x-1/2 -translate-y-1/2 bg-coral/20"></div>
+            <div class="relative mx-auto max-w-3xl px-5">
+                <h2 class="reveal font-display text-4xl leading-tight sm:text-6xl">Your money. Your person.<br><span
+                        class="grad">One ledger.</span></h2>
+                <p class="reveal mt-5 text-mist">Make your next money conversation the easiest one you’ve had.</p>
+                <div class="reveal mt-9 flex flex-wrap justify-center gap-3"><a data-web class="btn btn-p"
+                        href="app/">Explore it in your browser</a><span class="soon">Android app <em>Coming
+                            soon</em></span></div>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t border-white/10 px-5 py-10 pb-28 text-center text-sm text-mist md:pb-10">
+        <div class="flex items-center justify-center gap-2.5 text-white"><img src="app/icon-192.png" alt="" width="28"
+                height="28" class="h-7 w-7 rounded-lg bg-white/90 p-0.5"><span
+                class="font-display text-lg">Coupledger</span></div>
+        <p class="mt-3">Money, together. A tracker for your household. It does not hold or move real money.</p>
+        <p class="mt-3 flex flex-wrap justify-center gap-x-6 gap-y-1"><a class="hover:text-white"
+                href="privacy.html">Privacy</a><a class="hover:text-white" href="terms.html">Terms</a><a
+                class="hover:text-white" href="mailto:hi@amortree.com">Contact</a></p>
+        <p class="mt-3">© <span id="yr"></span> Coupledger · Built by <a class="text-white hover:underline"
+                href="mailto:hi@amortree.com">Amortree Tech</a></p>
+    </footer>
+    <div id="bar"
+        class="fixed inset-x-3 bottom-3 z-40 hidden translate-y-24 items-center justify-between gap-3 rounded-2xl glass px-4 py-3 md:hidden">
+        <span class="text-sm">Ready to look around?</span><a data-web class="btn btn-p !px-4 !py-2 text-sm"
+            href="app/">Open app</a></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script>addEventListener("load", () => { if (!window.gsap || !window.ScrollTrigger) document.documentElement.classList.remove("js") })</script>
+    <script src="assets/site.js"></script>
+</body>
+
+</html>
