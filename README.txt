@@ -10,8 +10,8 @@ _headers            Caching rules (Netlify / Cloudflare Pages)
 1. Upload the whole folder to a static host (Netlify: drag it onto app.netlify.com/drop).
 2. In index.html, replace every  YOUR-ADDRESS  with your real address (canonical link,
    social share tags and structured data).
-3. In Supabase > Authentication > URL Configuration set Site URL and Redirect URL to
-   https://YOUR-ADDRESS/app/
+3. Set up the Google Sheets backend (apps-script/SETUP.md), paste its web app URL into app/index.html
+   (SHEETS_API_URL), and set APP_URL in apps-script/Code.gs to https://YOUR-ADDRESS/app/
 4. Have privacy.html and terms.html reviewed. Contact: hi@amortree.com. Built by Amortree Tech.
 
 Android: the page says "Coming soon" and has no download. When the APK is ready, add it to a
